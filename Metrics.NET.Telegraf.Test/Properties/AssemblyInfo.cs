@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Metrics.NET.Telegraf")]
+[assembly: AssemblyTitle("Metrics.NET.Telegraf.Test")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Metrics.NET.Telegraf")]
+[assembly: AssemblyProduct("Metrics.NET.Telegraf.Test")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("fc5ecf83-f83b-4404-8540-fc2b1a337f65")]
+[assembly: Guid("705ca067-e0d0-4c79-bf06-01e6c9e67121")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -34,8 +34,3 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
-
-// Make internal classes visible to the test assembly
-// so that they can be unit tested
-[assembly: InternalsVisibleTo("Metrics.NET.Telegraf.Test")]
-[assembly: InternalsVisibleTo("DynamicProxyGenAssembly2")]

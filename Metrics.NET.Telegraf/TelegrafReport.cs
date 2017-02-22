@@ -208,7 +208,7 @@
             String[] tags = GetAllTagsAsArray(metricTags);
 
             var dataPoint = new LineProtocolPoint(
-                name,
+                this.GetFormattedMetricName(name),
                 new Dictionary<string, object>
                 {
                     { "value", value },
