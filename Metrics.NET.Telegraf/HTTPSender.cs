@@ -3,6 +3,7 @@
     using InfluxDB.LineProtocol.Client;
     using InfluxDB.LineProtocol.Payload;
     using System;
+    using System.Diagnostics;
     using System.IO;
     using System.Net.Http;
     using System.Text;
@@ -37,7 +38,7 @@
         {
             LineProtocolWriteResult result = this.WriteAsync(payload).GetAwaiter().GetResult();
             if (!result.Success)
-                Console.Error.WriteLine(result.ErrorMessage);
+                Trace.TraceError(result.ErrorMessage);
         }
 
         /// <summary>
