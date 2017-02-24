@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Metrics.NET.Telegraf</id>
+    <version>1.0.0</version>
+    <title>Metrics.NET.Telegraf</title>
+    <authors>Intapp</authors>
+    <owners>Intapp</owners>
+    <licenseUrl>https://github.com/intappx/Metrics.NET.Telegraf/blob/master/LICENCE</licenseUrl>
+    <projectUrl>https://github.com/intappx/Metrics.NET.Telegraf</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>An extension to Metrics.NET library that enables reporting metrics to Telegraf, as well as directly to InfluxDB.</description>
+    <releaseNotes>First release.</releaseNotes>
+    <copyright>Copyright 2017 Intapp</copyright>
+    <tags>metrics telegraf influxdb</tags>
+    <dependencies>
+      <dependency id="Metrics.NET" version="0.4.8" />
+      <dependency id="InfluxDB.LineProtocol" version="1.0.0-beta-10048" />
+    </dependencies>
+  </metadata>
+</package>
