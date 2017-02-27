@@ -4,7 +4,6 @@
     using NUnit.Framework;
     using System;
     using System.Collections.Generic;
-    using FluentAssertions;
     using Metrics.MetricData;
     using System.Linq;
 
