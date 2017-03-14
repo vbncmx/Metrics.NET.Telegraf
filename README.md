@@ -1,6 +1,6 @@
 # Metrics.NET.Telegraf
 
-[![Build status](https://ci.appveyor.com/api/projects/status/y85oga1l96ataoc2?svg=true)](https://ci.appveyor.com/project/KirillNikonov/metrics-net-telegraf)
+[![Build status](https://ci.appveyor.com/api/projects/status/srmx2431ncurgkby?svg=true)](https://ci.appveyor.com/project/Intapp/metrics-net-telegraf)
 
 Metrics.NET.Telegraf is an extension to the [Metrics.NET](https://github.com/Recognos/Metrics.NET) library that allows to report collected metrics to Telegraf.
 
