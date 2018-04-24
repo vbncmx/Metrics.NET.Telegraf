@@ -42,7 +42,7 @@
                 if (!result.Success)
                     Trace.TraceError(result.ErrorMessage);
             }
-            catch (Exception e)
+            catch (HttpRequestException e)
             {
                 Trace.TraceError(e.Message);
             }
