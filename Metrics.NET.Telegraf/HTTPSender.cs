@@ -36,9 +36,16 @@
         /// <param name="payload">Metrics payload.</param>
         public void Send(LineProtocolPayload payload)
         {
-            LineProtocolWriteResult result = this.WriteAsync(payload).GetAwaiter().GetResult();
-            if (!result.Success)
-                Trace.TraceError(result.ErrorMessage);
+            try
+            {
+                LineProtocolWriteResult result = this.WriteAsync(payload).GetAwaiter().GetResult();
+                if (!result.Success)
+                    Trace.TraceError(result.ErrorMessage);
+            }
+            catch (Exception e)
+            {
+                Trace.TraceError(e.Message);
+            }
         }
 
         /// <summary>
